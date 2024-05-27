@@ -1,6 +1,6 @@
 # O-ring Inspection
 
-![O-rings](Orings.png)
+![O-rings](O-rings.png)
 
 ## Overview
 
