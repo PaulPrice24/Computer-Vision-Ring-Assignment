@@ -1,5 +1,7 @@
 # O-ring Inspection
 
+![O-rings](Orings.png)
+
 ## Overview
 
 The goal was to develop a program to inspect images of O-rings for defects. O-rings, those rubber gaskets used for sealing joints, can have flaws during manufacturing, and the goal of this program was to detect these flaws using custom image processing techniques.
@@ -10,7 +12,7 @@ The goal was to develop a program to inspect images of O-rings for defects. O-ri
   
 - **Connected Component Labeling**: Implementing connected component labeling was a crucial step. This helped me accurately extract the O-ring region, usually the largest foreground region in the image.
   
-- **Defect Analysis**: Once I had the regions identified, I analyzed them to determine if the O-ring had any flaws. Some flaws were easier to detect than others, but it was a challenging yet rewarding process.
+- **Defect Analysis**: Once I had the regions identified, I analyzed them to determine if the O-ring had any flaws. Some flaws were easier to detect than others.
 
 ## Overcoming Challenges
 
@@ -22,4 +24,4 @@ One of the main challenges was the restriction on using OpenCV for image analysi
   
 - **Connected Component Labeling**: Implementing connected component labeling was a significant milestone. It allowed me to accurately extract the O-ring region, which was crucial for defect analysis.
   
-- **Defect Analysis**: Analyzing the regions to classify O-rings as pass or fail based on flaws was the most rewarding part. It felt great to see my program accurately detecting flaws in the O-rings.
+- **Defect Analysis**: Analyzing the regions to classify O-rings as pass or fail based on flaws was the most rewarding part.
